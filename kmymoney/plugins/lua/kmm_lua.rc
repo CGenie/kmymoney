@@ -1,0 +1,8 @@
+<!DOCTYPE kpartgui>
+<kpartgui name="kmymoneyplugin-lua" version="0">
+  <MenuBar>
+    <Menu name="tools">
+      <Action name="tools_lua" />
+    </Menu>
+  </MenuBar>
+</kpartgui>

@@ -24,6 +24,8 @@ if (ENABLE_SQLCIPHER)
   add_subdirectory(sqlcipher)
 endif(ENABLE_SQLCIPHER)
 
+add_subdirectory( lua )
+
 ########### next target ###############
 
 set(kmm_plugin_LIB_SRCS
