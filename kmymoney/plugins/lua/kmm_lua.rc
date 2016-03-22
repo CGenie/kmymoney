@@ -1,7 +1,7 @@
 <!DOCTYPE kpartgui>
-<kpartgui name="kmymoneyplugin-lua" version="0">
+<kpartgui name="kmymoney-plugins-lua" version="1">
   <MenuBar>
-    <Menu name="kmmtools" append="tools_generate_sql">
+    <Menu name="kmmtools">
       <Action name="tools_lua" />
     </Menu>
   </MenuBar>

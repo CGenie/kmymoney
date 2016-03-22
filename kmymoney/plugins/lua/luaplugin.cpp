@@ -46,7 +46,7 @@
 //#include "investprocessing.h"
 
 K_PLUGIN_FACTORY(LuaFactory, registerPlugin<LuaPlugin>();)
-K_EXPORT_PLUGIN(LuaFactory("kmm_plugin"))
+K_EXPORT_PLUGIN(LuaFactory("kmm_lua"))
 
 LuaPlugin::LuaPlugin(QObject *parent, const QVariantList&) :
     KMyMoneyPlugin::Plugin(parent, "lua"/*must be the same as X-KDE-PluginInfo-Name*/)
